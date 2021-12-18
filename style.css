@@ -1,0 +1,122 @@
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kalkulyator {
+    width: 400px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #fff;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#type {
+    display: flex;
+    width: 392px;
+    height: 150px;
+    border: none;
+    font-size: 40px;
+    border-radius: 20px;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    position: relative;
+}
+
+
+
+.back {
+    position: absolute;
+    font-size: 28px;
+    left: 340px;
+    color: #2724e0;
+    bottom: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.top {
+    position: absolute;
+    font-size: 28px;
+    color: #2724e0;
+    bottom: 0;
+    left: 140px;
+    background-color: transparent;
+    border: none;
+}
+
+.point {
+    position: absolute;
+    font-size: 28px;
+    color: #2724e0;
+    bottom: 0;
+    left: 38px;
+    background-color: transparent;
+    border: none;
+}
+
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 {
+    width: 100%;
+    height: 68px;
+}
+
+.kalk__nomer {
+    background-color: rgb(236, 232, 232);
+    border-radius: 20px;
+}
+
+.kalk {
+    width: 97px;
+    height: 60px;
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.kalk:hover {
+    background-color: #2724e0;
+    color: #fff;
+}
+
+#kalkt.active {
+    background-color: #2724e0;
+    color: #fff;
+}
+
+.kalkC,.kalkq,.kalkf,.kalkb,.kalkk,.kalkm,.kalkp,.kalkt {
+    color: #2724e0
+}
+
+@media(max-width:425px){
+    .kalkulyator {
+        height: 550px;
+    }
+
+    .line1,
+    .line2,
+    .line3,
+    .line4,
+    .line5 {
+    width: 100vh;
+}
+
+    .kalk {
+        width: 80px;
+        height: 55px;
+        font-size: 16px;
+    }
+}
+
+
+
